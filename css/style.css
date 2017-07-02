@@ -1,0 +1,29 @@
+body {
+    background-color: #404040;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 90%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF
+}
