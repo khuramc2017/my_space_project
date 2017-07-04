@@ -12,22 +12,44 @@
 </head>
 
 <body>
-  <!-- Header -->
-  <header>
-  </header>
-  <!-- Main -->
-  <main>
-    <h1> This is a space website</h1>
-  </main>
-  <!-- Footer -->
-  <footer>
+    <!-- Header -->
+    <header>
+    </header>
+    <!-- Main -->
+    <main>
+        <div class="content">
+            <div class="nearbyContent">
+                <h1 class="text"> This is a website for space lovers.</h1>
+                <ul class="text nearbyObjects">Nearby Ojects Today:</ul>
+            </div>
+            <div class="earthContent">
+                <h2 class="text">Recent Image of Earth:</h2>
+                <img class="imageOfEarth" src="" alt="Image of Earth">
+            </div>
+            <div class="marsRoverContent">
+                <h2 class="text">Recent Image from Mars Rover:</h2>
+                <img class="imageFromMars" src="" alt="Image of Mars">
+            </div>
+            <div class="eventContent">
+                <h2 class="text">Recent current Event:</h2>
+                <div class="currentEventMap"></div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
     <div>Icons made by
-      <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
-      <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>
-       is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
-       title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
+        <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>
+         is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+         title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
      </div>
-  </footer>
+    </footer>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script id="api_script" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkGzGslL876RBuy8-dqMEhiBWVYKnjxbw&callback=initMap" async defer onerror="failed()"> 
+    </script>
+
 </body>
 
 </html>

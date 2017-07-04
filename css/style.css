@@ -2,28 +2,61 @@ body {
     background-color: #404040;
     width: 100%;
     height: 100%;
+    background-size: cover;
 }
 
-h1{
+.text {
     color: #FFFFFF;
     text-align: center;
 }
 
-main {
+.content {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 100%;
-    height: 90%;
+    height: 95%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
 }
 
+.nearbyObjects {
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.astroids {
+    font-size: 16px;
+}
+
+.imageOfEarth {
+    width: 33%;
+    height: 33%;
+    display: block;
+    margin: 0 auto;
+}
+
+.imageFromMars {
+    width: 40%;
+    height: 25%;
+    display: block;
+    margin: 0 auto;
+}
+
+.currentEventMap {
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    left: 25%;
+    margin-bottom: 10%;
+}
+
 footer {
-    position:absolute;
-    bottom:0;
-    height: 10%;
+    position: fixed;
+    bottom: 0;
+    height: 5%;
     width: 100%;
     text-align: center;
-    color: #FFFFFF
+    color: #FFFFFF;
+    background: #808080;
 }
